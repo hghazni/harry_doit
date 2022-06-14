@@ -9,7 +9,6 @@ Create reusable component(s) based on folowing image
 
 The output of this task would be:
 
-- `.fig` [Figma](https://www.figma.com) files
 - single or multiple React components that are using [MUI](https://mui.com) library
 - stories of the components for [Storybook](https://storybook.js.org)
 
