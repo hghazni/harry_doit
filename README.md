@@ -3,13 +3,13 @@
 This assignment aims to show candidates' ability to create robust components in the environment we are using in DoIT.
 
 ## Goal
-Create reusable component(s) based on folowing image
+Create reusable component(s) based on following image:
 
 ![task](/task-mockup.png)
 
 The output of this task would be:
 
-- Recreation of the mockup above using single or multiple React components that are using [MUI](https://mui.com) library
+- Bringing the mockup above to life using single or multiple React components that are using [MUI](https://mui.com) library
 - Business logic that pulls the Organization ID from the input into the code component below it.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
