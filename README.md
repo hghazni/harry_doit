@@ -7,7 +7,7 @@ Create reusable component(s) based on the mockup found in the following [Figma f
 
 The output of this task would be:
 
-- Bringing the mockup above to life 
+- Bringing the mockup in Figma to life 
 - Consider splitting it into smaller reusable components using [MUI](https://mui.com) library
 - Business logic that pulls the Organization ID from the input into the code component below it
 - [OPTIONAL] Consider how this page would look on mobile/smaller screens
