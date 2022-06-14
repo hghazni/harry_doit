@@ -3,9 +3,7 @@
 This assignment aims to show candidates' ability to create robust components in the environment we are using in DoIT.
 
 ## Goal
-Create reusable component(s) based on following image:
-
-![task](/ux-task.png)
+Create reusable component(s) based on the mockup found in the following [Figma file](https://mui.com](https://www.figma.com/file/kvu15ZtSRfVPyymcWvdVkV/UX-Developer---Task?node-id=1%3A954)
 
 The output of this task would be:
 
