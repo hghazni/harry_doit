@@ -1,11 +1,11 @@
 # Home Assignment
 
-This assignment aims to show candidates' ability to create robust components in the environment we are using in DoIT.
+This assignment aims to show the candidates ability to create robust components in the environment we are using at DoiT.
 
 ## Goal
 Create reusable component(s) based on the mockup found in the following [Figma file](https://www.figma.com/file/kvu15ZtSRfVPyymcWvdVkV/UX-Developer---Task?node-id=1%3A954)
 
-The output of this task would be:
+The output of this task should be:
 
 - Bringing the mockup in Figma to life 
 - Consider splitting it into smaller reusable components using [MUI](https://mui.com) library
