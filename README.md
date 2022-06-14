@@ -5,7 +5,7 @@ This assignment aims to show candidates' ability to create robust components in 
 ## Goal
 Create reusable component(s) based on following image:
 
-![task](/task-mockup.png)
+![task](/uxdev-task.png)
 
 The output of this task would be:
 
