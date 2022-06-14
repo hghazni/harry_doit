@@ -9,7 +9,7 @@ Create reusable component(s) based on following image:
 
 The output of this task would be:
 
-- Bringing the mockup above to life (note - ignore the dropshadow) 
+- Bringing the mockup above to life 
 - Consider splitting it into smaller reusable components using [MUI](https://mui.com) library
 - Business logic that pulls the Organization ID from the input into the code component below it
 - [OPTIONAL] Consider how this page would look on mobile/smaller screens
