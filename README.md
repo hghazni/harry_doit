@@ -1,4 +1,5 @@
-# Home Assignment
+# DoIT Home Assignment
+By Harry Ashton
 
 This assignment aims to show the candidates ability to create robust components in the environment we are using at DoiT.
 
