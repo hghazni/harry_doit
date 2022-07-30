@@ -7,7 +7,7 @@ const Note = (props: NoteProps) => {
   const {className} = props;
   
   return (
-    <NoteMUI {...props} elevation={0} variant={'outlined'} className={`${className}`}>{props.children}</NoteMUI>
+    <NoteMUI {...props} square variant={'outlined'} className={`${className}`}>{props.children}</NoteMUI>
   )
 }
 
