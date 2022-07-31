@@ -2,10 +2,11 @@
 
 .customCodeSnippets {
   display: grid;
-  gap: 2rem;
+  gap: 3rem;
 
   @media screen and (min-width: 775px) {
     grid-template-columns: 2fr 1fr;
+    gap: 4rem;
   }
 }
 

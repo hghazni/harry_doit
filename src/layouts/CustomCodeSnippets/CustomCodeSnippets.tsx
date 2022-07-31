@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Box, FormControl, FormHelperText, Grid, Paper, Typography } from '@mui/material';
+import { useState } from 'react';
+import { Box, FormControl, FormHelperText, Grid } from '@mui/material';
 import Input from '../../components/Input';
 import Heading from '../../components/Heading';
 import CodeBlock from '../../components/CodeBlock';
@@ -26,7 +26,7 @@ const CustomCodeSnippets = () => {
               id="organizationID" 
               label="Your organisation ID" 
               onChange={(e) => setOrganizationID(e.currentTarget.value)} 
-              inputProps={{maxLength: 10}} 
+              inputProps={{MaxLength: 10}} 
             />
             <FormHelperText
               style={{marginBottom: organizationIDLengthChecker ? '30px' : ''}}
