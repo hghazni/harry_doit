@@ -9,7 +9,7 @@ const { className, label } = props;
     <TextField {...props}
       autoComplete={"false"}
       fullWidth 
-      label={label} 
+      label={label}
       className={`${scss.input} ${className}`} />
   )
 }

@@ -26,7 +26,7 @@ const CustomCodeSnippets = () => {
               id="organizationID" 
               label="Your organisation ID" 
               onChange={(e) => setOrganizationID(e.currentTarget.value)} 
-              inputProps={{MaxLength: 10}} 
+              inputProps={{maxLength: 10}} 
             />
             <FormHelperText
               style={{marginBottom: organizationIDLengthChecker ? '30px' : ''}}
