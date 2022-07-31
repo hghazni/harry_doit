@@ -7,11 +7,11 @@ describe("Heading Component", () => {
   beforeEach(() => {
     props = {
       className: '',
-      children: 'heading test'
+      variant: 'h4',
     };
   });
 
-  const renderComponent = () => render(<Heading {...props} />);
+  const renderComponent = () => render(<Heading {...props}>Run the following gcloud commands in sequence:</Heading>);
 
   it("Should render the Heading component with all it's props", () => {
     const { asFragment } = renderComponent();
