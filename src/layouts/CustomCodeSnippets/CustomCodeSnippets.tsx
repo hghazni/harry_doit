@@ -27,6 +27,7 @@ const CustomCodeSnippets = () => {
               label="Your organisation ID" 
               onChange={(e) => setOrganizationID(e.currentTarget.value)} 
               inputProps={{maxLength: 10}} 
+              multiline
             />
             <FormHelperText
               style={{marginBottom: organizationIDLengthChecker ? '30px' : ''}}
