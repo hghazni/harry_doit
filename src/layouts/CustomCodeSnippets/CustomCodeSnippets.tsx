@@ -5,8 +5,9 @@ import Heading from '../../components/Heading';
 import CodeBlock from '../../components/CodeBlock';
 import Note from '../../components/Note';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
-import IosShareOutlinedIcon from '@mui/icons-material/IosShareOutlined';
 import scss from './CustomCodeSnippets.module.scss';
+import LaunchIcon from '@mui/icons-material/Launch';
+
 
 const CustomCodeSnippets = () => {
   const [ organizationID, setOrganizationID ] = useState('');
@@ -47,7 +48,7 @@ const CustomCodeSnippets = () => {
             <br />
             <p>Duis lacus erat, tincidunt a quam eu, feugiat feugiat felis. Duis hendrerit a eros at pulvinar. Quisque a congue enim. Proin at egestas eros. Duis venenatis commodo tempus.</p>
             <ul className={scss.helpfulLinks}>
-              <li className={scss.helpfulItem}><IosShareOutlinedIcon className={scss.icon}/>
+              <li className={scss.helpfulItem}><LaunchIcon className={scss.icon}/>
                 <a className={scss.link} href="#learnWhereToFindOrganizationID">Learn where to find organization ID</a>
               </li>
               <li className={scss.helpfulItem}><ContentCopyIcon className={scss.icon} />

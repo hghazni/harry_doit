@@ -1,6 +1,8 @@
 # DoIT Home Assignment
 By Harry Ashton
 
+> Make sure to be using Node version ^16 to run unit tests
+
 This assignment aims to show the candidates ability to create robust components in the environment we are using at DoiT.
 
 ## Goal
