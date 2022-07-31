@@ -1,5 +1,5 @@
 import { TypographyProps } from "@mui/material";
 
-export interface LabelProps extends TypographyProps {
+export interface HeadingProps extends TypographyProps {
   className?: string,
 }

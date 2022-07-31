@@ -1,13 +1,21 @@
 import { Paper } from '@mui/material';
-import React from 'react';
-import NoteMUI from './Note.style';
 import { NoteProps } from './Note.types';
+import scss from './Note.module.scss';
 
 const Note = (props: NoteProps) => {
   const {className} = props;
   
   return (
-    <NoteMUI {...props} square variant={'outlined'} className={`${className}`}>{props.children}</NoteMUI>
+    <Paper {...props} 
+      square 
+      variant={'outlined'} 
+      className={`${scss.note} ${className}`}
+      sx={{
+        backgroundColor: '#FAFAFA'
+      }}
+      >
+      {props.children}
+    </Paper>
   )
 }
 

@@ -1,0 +1,7 @@
+@import "../../styles/_variables";
+
+.note {
+  padding: $gap * 3;
+  border-radius: $smallCorner;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}

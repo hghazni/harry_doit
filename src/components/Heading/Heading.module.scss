@@ -1,0 +1,14 @@
+@import "../../styles/_variables";
+
+// General heading styles
+.heading {
+  margin-bottom: $gap * 2 !important; // overriding MUI
+}
+
+// For the H4 variant of headings
+h4.heading {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.15px;
+}

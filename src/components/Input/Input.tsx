@@ -1,12 +1,16 @@
-import React from 'react';
 import { InputProps } from './Input.types';
-import InputMUI from './Input.style';
+import { TextField } from '@mui/material';
+import scss from './Input.module.scss';
 
 const Input = (props: InputProps) => {
 const { className, label } = props;
 
   return (
-    <InputMUI {...props} fullWidth label={label} className={`${className}`} />
+    <TextField {...props}
+      autoComplete={"false"}
+      fullWidth 
+      label={label} 
+      className={`${scss.input} ${className}`} />
   )
 }
 

@@ -1,0 +1,15 @@
+@import "../../styles/_variables";
+@import "../../styles/_typography";
+
+.codeBlock {
+  background-color: rgba(0, 0, 0, 0.04) !important;
+  padding: $gap * 2;
+
+  pre {
+    font-weight: 400;
+    white-space: normal;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: $robotoMono;
+  }
+}
