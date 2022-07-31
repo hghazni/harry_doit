@@ -6,6 +6,8 @@ By Harry Ashton
 
 This assignment aims to show the candidates ability to create robust components in the environment we are using at DoiT.
 
+![preview](doitharry_preview.PNG)
+
 ## Goal
 
 Create reusable component(s) based on the mockup found in the following [Figma file](https://www.figma.com/file/kvu15ZtSRfVPyymcWvdVkV/UX-Developer---Task?node-id=1%3A954)
